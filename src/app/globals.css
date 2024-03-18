@@ -1,0 +1,349 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-heading{
+  font-family: "Modak";
+  color: #499DB9;
+  font-size: 100px;
+  line-height: 100px;
+  top: -50px;
+  font-weight: 400;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.heading1{
+  font-family: "Modak";
+  color: #499DB9;
+  font-size: 85px;
+  line-height: 85px;
+  font-weight: 400;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.heading2{
+  font-family: "Modak";
+  color: #C53F77;
+  font-size: 85px;
+  line-height: 85px;
+  font-weight: 400;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.subtext{
+  font-family: "Dongle";
+  color: white;
+  font-size: 26px;
+  line-height: 24.7px;
+  font-weight: 400;
+}
+
+.subtext2{
+  font-family: "Dongle";
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.mobile-sm-hw {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.logo{
+  height: 53px;
+  width: 100px;
+}
+
+
+  .pink-bg{
+    background-color: #CB3E79;
+  }
+
+  .blue-bg:hover {
+    background-color: #499DB9;
+    fill: #499DB9;
+  }
+
+  .border-pink{
+    border: 2px solid #CB3E79;
+  }
+
+  .menu-text{
+    font-family: "Dongle";
+    color: white;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+
+  .mobile-menu-text{
+    font-family: "Dongle";
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+
+
+
+  @media only screen and (min-width: 2001px) {
+
+    .hero-heading{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 185px;
+      line-height: 185px;
+      top: -85px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 4px;
+      -webkit-text-stroke-color: white;
+    }
+
+    .heading1{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 170px;
+      line-height: 170px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .heading2{
+      font-family: "Modak";
+      color: #C53F77;
+      font-size: 170px;
+      line-height: 170px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .subtext{
+      font-family: "Dongle";
+      color: white;
+      font-size: 44px;
+      line-height: 41.8px;
+      font-weight: 400;
+    }
+  
+    .subtext2{
+      font-family: "Dongle";
+      color: white;
+      font-size: 60px;
+      line-height: 60px;
+      font-weight: 700;
+    }
+
+    .menu-text{
+      font-family: "Dongle";
+      color: white;
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 700;
+    }
+
+    .sm-hw{
+      height: 100px !important;
+      width: 100px !important;
+    }
+
+  }
+
+
+  @media (min-width: 1500px) and (max-width: 2000px) {
+
+    .hero-heading{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 145px;
+      line-height: 145px;
+      top: -85px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: white;
+    }
+
+    .heading1{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 130px;
+      line-height: 130px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .heading2{
+      font-family: "Modak";
+      color: #C53F77;
+      font-size: 130px;
+      line-height: 130px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .subtext{
+      font-family: "Dongle";
+      color: white;
+      font-size: 32px;
+      line-height: 30.4px;
+      font-weight: 400;
+    }
+  
+    .subtext2{
+      font-family: "Dongle";
+      color: white;
+      font-size: 50px;
+      line-height: 50px;
+      font-weight: 700;
+    }
+
+    .menu-text{
+      font-family: "Dongle";
+      color: white;
+      font-size: 26px;
+      line-height: 26px;
+      font-weight: 700;
+    }
+
+    .sm-hw{
+      height: 70px !important;
+      width: 70px !important;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+
+    .logo{
+      height: 36.57px;
+      width: 69px;
+    }    
+
+    .hero-heading{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 54px;
+      line-height: 54px;
+      top: -25px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+
+    .heading1{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 45px;
+      line-height: 45px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .heading2{
+      font-family: "Modak";
+      color: #C53F77;
+      font-size: 45px;
+      line-height: 45px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .subtext{
+      font-family: "Dongle";
+      color: white;
+      font-size: 18px;
+      line-height: 17.1px;
+      font-weight: 400;
+    }
+  
+    .subtext2{
+      font-family: "Dongle";
+      color: white;
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 700;
+    }
+
+    .menu-text{
+      font-family: "Dongle";
+      color: white;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 700;
+    }
+
+    .sm-hw{
+      height: 40px !important;
+      width: 40px !important;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 700px) {
+
+    .hero-heading{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 50px;
+      line-height: 38px;
+      top: -15px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+
+    .heading1{
+      font-family: "Modak";
+      color: #499DB9;
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .heading2{
+      font-family: "Modak";
+      color: #C53F77;
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 400;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+  
+    .subtext{
+      font-family: "Dongle";
+      color: white;
+      font-size: 18px;
+      line-height: 17.8px;
+      font-weight: 400;
+    }
+  
+    .subtext2{
+      font-family: "Dongle";
+      color: white;
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: 700;
+    }
+
+    .sm-hw{
+      height: 40px !important;
+      width: 40px !important;
+    }
+
+  }
