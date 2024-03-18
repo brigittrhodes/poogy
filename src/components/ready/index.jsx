@@ -17,7 +17,7 @@ export default function Main() {
 
 const Ready = () => {
   return (
-    <div className="text-center overflow-hidden lg:px-12 py-12 md:py-24 pt-12" id="ready">
+    <div className="text-center overflow-hidden lg:px-12 py-12 md:pb-24 pt-12" id="ready">
       <h1 className={`heading2 ${styles['half-heading']}`}>ARE U READY?</h1>
       <div className="pink-bg border-white border-2 p-4 relative rounded-2xl mt-8 md:mt-16">
         <div className="flex flex-col md:flex-row">
