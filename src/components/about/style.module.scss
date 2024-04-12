@@ -1,0 +1,13 @@
+  @keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
+
+#image1_91_41 {
+  animation: wiggle 0.5s ease infinite alternate; /* Apply the wiggle animation */
+}
+
+.features{
+  margin-bottom: 15rem;
+}

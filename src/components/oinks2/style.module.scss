@@ -1,0 +1,31 @@
+.bottom-bg {
+  background-image: url('../../../public/images/bg/dark/bg-1440.png');
+//  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -15rem;
+}
+
+@media only screen and (min-width: 2001px) {
+  .bottom-bg {
+    background-image: url('../../../public/images/bg/dark/bg-2560.png');
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+  .bottom-bg {
+    background-image: url('../../../public/images/bg/dark/bg-1920.png');
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bottom-bg {
+    background-image: url('../../../public/images/bg/dark/bg-744.png');
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .bottom-bg {
+    background-image: url('../../../public/images/bg/dark/bg-375.png');
+  }
+}

@@ -1,0 +1,121 @@
+.custom_shape_divider_top_1709292777 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom_shape_divider_top_1709292777 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom_shape_divider_top_1709292777 .shape-fill {
+  fill: #C53F77;
+}
+
+.half-heading {
+  position: relative;
+  top: 95px;
+}
+
+.bottom-heading{
+  font-size: 140px;
+  line-height: 140px;
+  font-weight: 400;
+  font-family: "Modak";
+  color: #C53F77;
+  -webkit-text-stroke-width: 3.16px;
+  -webkit-text-stroke-color: white;
+  position: relative;
+  top: -125px;
+}
+
+
+@media only screen and (min-width: 2001px) {
+  .half-heading {
+    position: relative;
+    top: 125px;
+  }
+
+  .bottom-heading{
+    font-size: 235px;
+    line-height: 235px;
+    font-weight: 400;
+    font-family: "Modak";
+    color: #C53F77;
+    -webkit-text-stroke-width: 3.16px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+    top: -175px;
+  }
+
+}
+
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+  .half-heading {
+    position: relative;
+    top: 110px;
+  }
+
+  .bottom-heading{
+    font-size: 190px;
+    line-height: 190px;
+    font-weight: 400;
+    font-family: "Modak";
+    color: #C53F77;
+    -webkit-text-stroke-width: 3.16px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+    top: -155px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .half-heading {
+    position: relative;
+    top: 80px;
+  }
+
+  .bottom-heading{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 400;
+    font-family: "Modak";
+    color: #C53F77;
+    -webkit-text-stroke-width: 3.16px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+    top: -95px;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .half-heading {
+    position: relative;
+    top: 10px;
+  }
+  .bottom-heading{
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: "Modak";
+    color: #C53F77;
+    -webkit-text-stroke-width: 3.16px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+    top: -55px;
+  }
+}

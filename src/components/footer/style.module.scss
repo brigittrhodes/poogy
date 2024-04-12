@@ -1,0 +1,60 @@
+.footer {
+  background-color: #010210;
+  margin-top: -1rem;
+}
+
+.footer-text {
+  font-family: "Dongle";
+  font-size: 20px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+
+@media only screen and (min-width: 2001px) {
+
+  .footer-text {
+    font-family: "Dongle";
+    font-size: 36px;
+    line-height: 34.2px;
+    font-weight: 400;
+  }
+
+}
+
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+
+  .footer-text {
+    font-family: "Dongle";
+    font-size: 26px;
+    line-height: 24.7px;
+    font-weight: 400;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .footer-text {
+    font-family: "Dongle";
+    font-size: 16px;
+    line-height: 15.2px;
+    font-weight: 400;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .footer-text {
+    font-family: "Dongle";
+    font-size: 14px;
+    line-height: 13.3px;
+    font-weight: 400;
+  }
+
+}

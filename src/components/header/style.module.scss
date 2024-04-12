@@ -1,0 +1,71 @@
+.left{
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+//    z-index: 3;
+}
+
+
+.logo{
+    height: 69px !important;
+    width: 53px !important;
+}
+
+.header{
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+
+    .button{
+       // width: 80px;
+        height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burger{
+        width: 100%;
+        &::after, &::before{
+            content: "";
+            display: block;
+            height: 3px;
+            width: 30px;
+            border-radius: 10px;
+            margin: auto;
+            background-color: #5FB2CD;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        &::after{
+            top: -5px;
+        }
+
+        &::before{
+            top: 5px;
+        }
+    }
+
+    .burgerActive{
+
+        &::after{
+            background-color: #CB3E79;
+            transform: rotate(45deg);
+            top: -1px;
+        }
+
+        &::before{
+            background-color: #CB3E79;
+            transform: rotate(-45deg);
+            top: 1px;
+        }
+        
+    }
+}
+
