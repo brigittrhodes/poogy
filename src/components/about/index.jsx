@@ -106,7 +106,7 @@ export default function Main() {
 
 const About = () => {
     return (
-        <div className="text-center overflow-hidden" id="about">
+        <div className="text-center overflow-hidden lg:mt-0 mt-8" id="about">
             <h1 className="heading1">ABOUT POOGY</h1>
             <div className="w-full md:w-1/2 mx-auto">
                 <p className="subtext uppercase md:p-0 p-4">
@@ -124,7 +124,7 @@ const About = () => {
 
 const Features = () => {
     return (
-        <div className="text-center overflow-hidden mb-12 lg:mt-40 mt-24" id="features">
+        <div className="text-center overflow-hidden mb-12 lg:mt-40 mt-16" id="features">
             <h1 className="heading1">FEATURES</h1>
 
             <div className={`flex flex-col md:flex-row items-center justify-center ${styles['features']}`}>
